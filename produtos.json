@@ -1,0 +1,121 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Verduras",
+            "image": "https://i.imgur.com/6Y7hiNt.png"
+        },
+        {
+            "id": 2,
+            "name": "Frutas",
+            "image": "https://i.imgur.com/lDTn0nq.png"
+        },
+        {
+            "id": 3,
+            "name": "Laticinios",
+            "image": "https://i.imgur.com/5JTDRu8.png"
+        },
+        {
+            "id": 4,
+            "name": "Carnes",
+            "image": "https://i.imgur.com/jXMCHo4.png"
+        },
+        {
+            "id": 5,
+            "name": "Bebidas",
+            "image": "https://i.imgur.com/kZAJ7Vd.png"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Alface",
+            "price": 1.50,
+            "measure": "un",
+            "stock": 5,
+            "categoryId": 1,
+            "image": "https://i.imgur.com/DXLZCN0.png"
+        },
+        {
+            "id": 2,
+            "name": "Beterraba",
+            "price": 3.00,
+            "measure": "kg",
+            "stock": 20,
+            "categoryId": 1,
+            "image": "https://i.imgur.com/3icbQhW.png"
+        },
+        {
+            "id": 3,
+            "name": "Maçã",
+            "price": 3.00,
+            "measure": "kg",
+            "stock": 20,
+            "categoryId": 2,
+            "image": "https://imgur.com/C1t0rnh"
+        },
+        {
+            "id": 4,
+            "name": "Banana",
+            "price": 4.00,
+            "measure": "kg",
+            "stock": 20,
+            "categoryId": 2,
+            "image": "https://i.imgur.com/3u2Gcbm.png"
+        },
+        {
+            "id": 5,
+            "name": "Leite",
+            "price": 2.50,
+            "measure": "lt",
+            "stock": 50,
+            "categoryId": 3,
+            "image": "https://i.imgur.com/wvEZxox.png"
+        },
+        {
+            "id": 6,
+            "name": "Margarina",
+            "price": 4.00,
+            "measure": "un",
+            "stock": 10,
+            "categoryId": 3,
+            "image": "https://i.imgur.com/5JTDRu8.png"
+        },
+        {
+            "id": 7,
+            "name": "Picanha",
+            "price": 40.00,
+            "measure": "kg",
+            "stock": 10,
+            "categoryId": 4,
+            "image": "https://i.imgur.com/jXMCHo4.png"
+        },
+        {
+            "id": 8,
+            "name": "Alcatra",
+            "price": 32.00,
+            "measure": "kg",
+            "stock": 10,
+            "categoryId": 4,
+            "image": "https://i.imgur.com/Yhc0WeP.png"
+        },
+        {
+            "id": 10,
+            "name": "Cerveja",
+            "price": 2.60,
+            "measure": "un",
+            "stock": 36,
+            "categoryId": 5,
+            "image": "https://i.imgur.com/kZAJ7Vd.png"
+        },
+        {
+            "id": 10,
+            "name": "Vinho",
+            "price": 5.00,
+            "measure": "un",
+            "stock": 20,
+            "categoryId": 5,
+            "image": "https://i.imgur.com/kZAJ7Vd.png"
+        }
+    ]
+}

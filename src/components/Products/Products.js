@@ -13,13 +13,15 @@ class Products extends Component {
             items: []
         }
     }
+    clickItemHandler = () => this.props.navigate('PaymentMethod')
+
     componentDidMount() {
         this.setState({ isLoading: true })
 
         const list = [];
         const { products } = db
         products.forEach(element => {
-            console.log(element,this.props.foreingKey)
+            console.log(element, this.props.foreingKey)
             if (element.categoryId === this.props.foreingKey) {
                 list.push(element)
             }
@@ -31,7 +33,7 @@ class Products extends Component {
             <View style={styles.container}>
                 <Text style={styles.textTitle}>Selecione um produtos:</Text>
                 {this.state.isLoading ? <Text>Carregando...</Text>
-                    : <ProductsList items={this.state.items} />
+                    : <ProductsList items={this.state.items} clickHandler={this.clickItemHandler} />
                 }
             </View>
         )

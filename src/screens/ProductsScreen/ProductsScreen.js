@@ -13,7 +13,7 @@ class ProductsScreen extends Component {
 
     render() {
         const { navigation } = this.props
-        const { navigate } = navigation.navigate;
+        const { navigate } = navigation;
         const foreingKey = navigation.getParam("categoryId", 0)
         return (
             <View style={styles.container}>

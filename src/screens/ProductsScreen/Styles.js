@@ -11,6 +11,7 @@ const styles =
             alignItems: 'center',
             backgroundColor: StylesDefault.colors.primaryColor
         }
+       
     })
 
 export default styles
